@@ -7,10 +7,10 @@ Os arquivos de teste devem ser usados da seguinte forma:
 
 ### Sintático:
 ```bash
-python arquivodeteste.minijava parser.py
+python parser.py arquivodeteste.minijava 
 ```
 
 ### Léxico:
 ```bash
-python arquivodeteste.minijava lexer.py
+python lexer.py arquivodeteste.minijava
 ```
