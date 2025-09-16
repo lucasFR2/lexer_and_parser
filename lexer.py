@@ -54,7 +54,7 @@ def lexer(code):
         kind = mo.lastgroup
         value = mo.group()
 
-        if kind == "SKIP" or kind == "COMMENT": #ignorar espaços e comentários
+        if kind == "SKIP" or kind == "COMENT": #ignorar espaços e comentários 
             continue
         elif kind == "MISMATCH": #se for uma coisa inesperada
             raise RuntimeError(f"Token inválido: {value}")
